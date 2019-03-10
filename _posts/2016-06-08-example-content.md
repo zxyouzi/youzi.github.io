@@ -2,7 +2,7 @@
 title:        "Sample Post"
 description:  "A short description of the page's content"
 image:        "http://placehold.it/400x200"
-author:       "Jhonathan"
+author:       "爸爸"
 ---
 
 An h1 header
