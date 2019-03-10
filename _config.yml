@@ -25,13 +25,13 @@ markdown:           kramdown
 
 nav:
   - name:           " Categories"
-    href:           "/views/categories.html"
+    href:           "/categories.html"
   - name:           " Collections"
-    href:           "/views/collections.html"
+    href:           "/collections.html"
   - name:           "Archives"
-    href:           "/views/archives.html"
+    href:           "/archives.html"
   - name:           "About"
-    href:           "/views/about"
+    href:           "/about"
   
 
 sass:
