@@ -1,32 +1,38 @@
-name:               "柚子的blog"
+name:               "柚子"
 description:        "Welcome to youzi's blog!"
 
-url:                ""
+url:                "https://zxyouzi.github.io"
 author:             "柚子"
 email:              "281151582@qq.com"
 gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
 twitter:            ""
 email:              "281151582@qq.com"
-github:             "http://zxyouzi.github.io"
+github:             "https://zxyouzi.github.io"
 pinterest:          ""
 linkedin:           ""
 facebook:           ""
 
 disqus_shortname:   "柚子"
 
+background:         "/img/background.jpg"
 paginate:           5
 paginate_path:      "/page:num/"
 
-baseurl:            ""
+baseurl:            "https://zxyouzi.github.io"
 permalink:          /:year/:month/:day/:title/
 
 markdown:           kramdown
 
 nav:
+  - name:           " Categories"
+    href:           "/views/categories.html"
+  - name:           " Collections"
+    href:           "/views/collections.html"
+  - name:           "Archives"
+    href:           "/views/archives.html"
   - name:           "About"
-    href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
+    href:           "/views/about"
+  
 
 sass:
   style:            :compressed

@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="content page">
+  <h1 class="page-title">Categories</h1>
+</div>
+<div class="content">
+  {% if site.posts.size == 0 %}
+  <h2>你的博客老鼠都不光顾，快来写博客吧！</h2> 
+  {% else %} 
+  {% for post in paginator.posts %}
+  <div class="post-list">
+      <h2 class="post-title">
+         <a href="{{ post.url }}">{{ post.title }}</a>
+      </h2> {% if post.description %}
+      <p>{{ post.description }}</p>
+      {% endif %}
+      <div class="post-date">
+          <time>{{ post.date | date_to_string }}</time>
+      </div>
+  </div>
+  {% endfor %} 
+  {% if paginator.total_pages > 1 %}
+  <div class="pages">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><</a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">></a>
+    {% endif %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>
