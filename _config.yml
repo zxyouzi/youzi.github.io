@@ -25,11 +25,11 @@ markdown:           kramdown
 
 nav:
   - name:           " Categories"
-    href:           "/categories.html"
+    href:           "/categories"
   - name:           " Collections"
-    href:           "/collections.html"
+    href:           "/page/collections"
   - name:           "Archives"
-    href:           "/archives.html"
+    href:           "/archives"
   - name:           "About"
     href:           "/about"
   
