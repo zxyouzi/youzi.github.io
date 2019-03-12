@@ -38,12 +38,21 @@ kramdown:
   syntax_highlighter: rouge
 
 nav:
-  - name:           " Categories"
-    href:           "/categories"
+  - name:           " Home"
+    href:           "/"
+
   - name:           " Collections"
     href:           "/page/collections"
-  - name:           "Archives"
-    href:           "/archives"
+    
+  - name:           " WatchTV"
+    href:           "/page/watchtv"
+
+  - name:           "StudySource"
+    href:           "/page/studysource"
+
+  - name:           "College"
+    href:           "/page/colleage"
+    
   - name:           "About"
     href:           "/about"
   
@@ -71,4 +80,4 @@ defaults:
 # paginate
 plugins: [jekyll-paginate]
 paginate: 5
-port: 4002
+port: 4000
