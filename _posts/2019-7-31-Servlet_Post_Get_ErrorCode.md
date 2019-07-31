@@ -29,7 +29,7 @@ request.setCharacterEncoding("UTF-8");
 ### a、获取url乱码：
 在Tomcat8.0以下版本中，修改\apache-tomcat-7.0.56\conf\server.xml配置文件如图，加入URIEncoding=“UTF-8”,保存退出！
 
-![](./20190306183951888.png)
+![](https://github.com/zxyouzi/zxyouzi.github.io/raw/master/_posts/20190306183951888.png)
 
 ### b、响应乱码：
 
